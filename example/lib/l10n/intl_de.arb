@@ -1,18 +1,17 @@
 {
-  "@@last_modified": "2024-09-23T10:25:09.284199",
-  "logistics": "Logistics",
-  "@logistics": {
-    "type": "text",
-    "placeholders": {}
-  },
-  "gates": "Gates",
-  "@gates": {
-    "type": "text",
-    "placeholders": {}
-  },
-  "warehouse": "Warehouse",
-  "@warehouse": {
-    "type": "text",
-    "placeholders": {}
-  }
+    "@@locale": "de",
+    "@@last_modified": "2024-09-23T10:41:11.224640",
+    "@@context": "Sheet1",
+    "logistics": "Logistik",
+    "@logistics": {
+        "type": "text"
+    },
+    "gates": "Tore",
+    "@gates": {
+        "type": "text"
+    },
+    "warehouse": "Lager",
+    "@warehouse": {
+        "type": "text"
+    }
 }

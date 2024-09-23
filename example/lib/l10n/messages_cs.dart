@@ -25,8 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final Map<String, dynamic> messages = _notInlinedMessages(_notInlinedMessages);
 
   static Map<String, dynamic> _notInlinedMessages(_) => {
-      'gates': MessageLookupByLibrary.simpleMessage('Gates'),
-    'logistics': MessageLookupByLibrary.simpleMessage('Logistics'),
-    'warehouse': MessageLookupByLibrary.simpleMessage('Warehouse')
+      'gates': MessageLookupByLibrary.simpleMessage('Brány'),
+    'logistics': MessageLookupByLibrary.simpleMessage('Logistika'),
+    'warehouse': MessageLookupByLibrary.simpleMessage('Sklad')
   };
 }

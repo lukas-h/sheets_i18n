@@ -15,6 +15,8 @@ It should look like this:
 - the columns after that are the language codes.
 - the rows are for each specific translated word/sentence.
 
+- copy the sheet ID: `https://docs.google.com/spreadsheets/d/THIS PART OF THE URL/edit?pli=1&gid=0#gid=0`
+
 ### 2. Configure a service account
 
 1. Create a new service account in the Google Cloud Console
@@ -23,6 +25,8 @@ It should look like this:
 4. Share the google sheet with the service account and give it edit privileges
     <img width="494" alt="Screenshot 2024-09-23 at 09 49 49" src="https://github.com/user-attachments/assets/33223e19-5da5-482e-be22-abee7d021ff4">
 5. Download the service account JSON (it's local path will later be added to the pubspec configuration)
+
+⚠️ DO NOT COMMIT YOUR SERVICE ACCOUNT JSON ⚠️
 
 ### 3. Prerequisites with `intl_translation`
 

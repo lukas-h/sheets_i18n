@@ -26,5 +26,5 @@ flutter:
   uses-material-design: true
 
 sheets_i18n:
-  service_account_path: ./service_account.json
-  sheet_id: 34tv34rv324rv23rv3r43r43red89f8hs89duzfs
+  service_account_path: ./service_account_not_committed.json
+  sheet_id: 1URJ8ahdbD1C739pEA4LGf8RCy-Q-UtVd4rzP09APAGw
