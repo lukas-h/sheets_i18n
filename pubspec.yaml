@@ -17,4 +17,4 @@ dev_dependencies:
   test: ^1.25.8
 
 executables:
-  update: main
+  update: update
