@@ -26,7 +26,7 @@ It should look like this:
 
 ### 3. Prerequisites with `intl_translation`
 
-1. Having setup `intl_translation`
+1. Having setup `intl_translation`, incl. a `MyAppLocalizations` and `MyAppLocalizationsDelegate` class
 2. Having run the `intl_translation` commands to generate the arb files [github.com/dart-lang/i18n](https://github.com/dart-lang/i18n/tree/main/pkgs/intl_translation#extracting-and-using-translated-messages)
 
 ### 4. Install this package
