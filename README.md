@@ -30,12 +30,18 @@ It should look like this:
 
 ### 3. Prerequisites with `intl_translation`
 
-1. Having setup `intl_translation`, incl. a `MyAppLocalizations` and `MyAppLocalizationsDelegate` class
-2. Having run the `intl_translation` commands to generate the arb files [github.com/dart-lang/i18n](https://github.com/dart-lang/i18n/tree/main/pkgs/intl_translation#extracting-and-using-translated-messages)
+1. Having setup `intl_translation` and `flutter_localizations`, incl. a `MyAppLocalizations` and `MyAppLocalizationsDelegate` class ([see our example app](https://github.com/lukas-h/sheets_i18n/tree/main/example))
+2. Having run the `intl_translation` commands to generate the arb files [github.com/dart-lang/i18n](https://github.com/dart-lang/i18n/tree/main/pkgs/intl_translation#extracting-and-using-translated-messages)  
+```bash
+flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/main.dart
+```
+3. Create new ARB files for each locale, naming them `intl_<locale>.arb` (e.g., `intl_de.arb` for German, `intl_es.arb` for Spanish).
 
 ### 4. Install this package
 
-`flutter pub add sheets_i18n`
+```bash
+flutter pub add sheets_i18n
+```
 
 ### 5. Configure the pubspec.yaml
 
@@ -43,13 +49,15 @@ add this section:
 
 ```yaml
 sheets_i18n:
-  service_account_path: ./service_account.json
+  service_account_path: ./path/to/service_account.json
   sheet_id: 34tv34rv324rv23rv3r43r43red89f8hs89duzfs
 ```
 
 ### 6. Run the sync script
 
-`flutter pub run sheets_i18n:update`
+```bash
+flutter pub run sheets_i18n:update
+```
 
 This will 2-way-sync all the changes:
 - message keys that are not present in the Google Sheet will be added
@@ -58,3 +66,10 @@ This will 2-way-sync all the changes:
 ### 7. Run `intl_translation`'s arb to dart
 
 Run the `intl_translation` commands to generate the dart code from the arb files [github.com/dart-lang/i18n](https://github.com/dart-lang/i18n/tree/main/pkgs/intl_translation#extracting-and-using-translated-messages)
+
+```bash
+flutter pub run intl_translation:generate_from_arb \
+    --output-dir=lib/l10n --no-use-deferred-loading \
+    lib/main.dart \
+    lib/l10n/intl_en.arb lib/l10n/intl_de.arb lib/l10n/intl_cs.arb
+```
