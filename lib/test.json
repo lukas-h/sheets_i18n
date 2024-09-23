@@ -1,0 +1,1196 @@
+[
+    {
+        "@@locale": "en",
+        "@@last_modified": "2020-10-28T12:44:44.101354",
+        "@@context": "app",
+        "food_climate": "Food & Climate",
+        "@food_climate": {
+            "type": "text"
+        },
+        "email": "Email",
+        "@email": {
+            "type": "text"
+        },
+        "phone": "Phone",
+        "@phone": {
+            "type": "text"
+        },
+        "password": "Password",
+        "@password": {
+            "type": "text"
+        },
+        "sign_in": "Sign in",
+        "@sign_in": {
+            "type": "text"
+        },
+        "new_here": "You are new here?",
+        "@new_here": {
+            "type": "text"
+        },
+        "learn_more": "Learn  more and sign up",
+        "@learn_more": {
+            "type": "text"
+        },
+        "welcome": "Welcome to Minga",
+        "@welcome": {
+            "type": "text"
+        },
+        "create_account": "Create an account to...",
+        "@create_account": {
+            "type": "text"
+        },
+        "help": "Help",
+        "@help": {
+            "type": "text"
+        },
+        "benefit": "Benefit",
+        "@benefit": {
+            "type": "text"
+        },
+        "donate": "Donate",
+        "@donate": {
+            "type": "text"
+        },
+        "your_email": "Your email adress",
+        "@your_email": {
+            "type": "text"
+        },
+        "min_chars": "min. characters",
+        "@min_chars": {
+            "type": "text"
+        },
+        "non_alpha_numeric": "Use non alpha-numeric chars",
+        "@non_alpha_numeric": {
+            "type": "text"
+        },
+        "terms": "Please accept our Terms of Service",
+        "@terms": {
+            "type": "text"
+        },
+        "privacy": "Please accept our Privacy policy",
+        "@privacy": {
+            "type": "text"
+        },
+        "register": "Register",
+        "@register": {
+            "type": "text"
+        },
+        "your_phone": "Your phone number",
+        "@your_phone": {
+            "type": "text"
+        },
+        "phone_disclaimer": "You should be able to receive text messages for this phone number, so we can send you an authentication code.",
+        "@phone_disclaimer": {
+            "type": "text"
+        },
+        "phone_note": "You will receive a verification text message on your phone.",
+        "@phone_note": {
+            "type": "text"
+        },
+        "your_name": "Your name",
+        "@your_name": {
+            "type": "text"
+        },
+        "show_email": "Show email address",
+        "@show_email": {
+            "type": "text"
+        },
+        "show_emai_sub": "Other users can see your email associated with your profile.",
+        "@show_emai_sub": {
+            "type": "text"
+        },
+        "show_phone": "Show phone number",
+        "@show_phone": {
+            "type": "text"
+        },
+        "show_phone_sub": "Other users can see your phone number associated with your profile.",
+        "@show_phone_sub": {
+            "type": "text"
+        },
+        "anon_donations": "Anonymize my donations",
+        "@anon_donations": {
+            "type": "text"
+        },
+        "anon_donations_sub": "When donating, the recipient can't see your profile.",
+        "@anon_donations_sub": {
+            "type": "text"
+        },
+        "anon_chats": "Anonymize my chats",
+        "@anon_chats": {
+            "type": "text"
+        },
+        "anon_chats_sub": "Hide your identity while chatting in the general chat. This does not effect the chats associated with donations or voluntary work.",
+        "@anon_chats_sub": {
+            "type": "text"
+        },
+        "show_impact": "Show my impact",
+        "@show_impact": {
+            "type": "text"
+        },
+        "show _impact_sub": "Other users can see your total impact assoociated with your profile.",
+        "@show _impact_sub": {
+            "type": "text"
+        },
+        "residence": "Your place of residence",
+        "@residence": {
+            "type": "text"
+        },
+        "location": "Select Location ",
+        "@location": {
+            "type": "text"
+        },
+        "save_profile": "Save profile",
+        "@save_profile": {
+            "type": "text"
+        },
+        "benefit_sub": "Discover food offerrings nearby",
+        "@benefit_sub": {
+            "type": "text"
+        },
+        "help_sub": "Povide help delivering or cooking food",
+        "@help_sub": {
+            "type": "text"
+        },
+        "donate_sub": "Donate food or other goods",
+        "@donate_sub": {
+            "type": "text"
+        },
+        "admin": "Admin",
+        "@admin": {
+            "type": "text"
+        },
+        "admin_sub": "Manage distribution centers",
+        "@admin_sub": {
+            "type": "text"
+        },
+        "moderate": "For Minga staff only",
+        "@moderate": {
+            "type": "text"
+        },
+        "logged_in": "Logged in",
+        "@logged_in": {
+            "type": "text"
+        },
+        "log_out": "Log out",
+        "@log_out": {
+            "type": "text"
+        },
+        "manage_account": "Manage account",
+        "@manage_account": {
+            "type": "text"
+        },
+        "manage_account_sub": "Edit profile, export data",
+        "@manage_account_sub": {
+            "type": "text"
+        },
+        "export_data": "Export all user data",
+        "@export_data": {
+            "type": "text"
+        },
+        "export_data_sub": "The european GDPR requires an option to download all user-specific data",
+        "@export_data_sub": {
+            "type": "text"
+        },
+        "delete_account": "Delete account",
+        "@delete_account": {
+            "type": "text"
+        },
+        "delete_account_sub": "This causes permanent data loss and can't be undone",
+        "@delete_account_sub": {
+            "type": "text"
+        },
+        "cancel": "Cancel",
+        "@cancel": {
+            "type": "text"
+        },
+        "update": "Update",
+        "@update": {
+            "type": "text"
+        },
+        "save": "Save",
+        "@save": {
+            "type": "text"
+        },
+        "proceed": "Proceed",
+        "@proceed": {
+            "type": "text"
+        },
+        "done": "Done",
+        "@done": {
+            "type": "text"
+        },
+        "account ": "Account",
+        "@account ": {
+            "type": "text"
+        },
+        "impact": "Impact",
+        "@impact": {
+            "type": "text"
+        },
+        "community": "Community",
+        "@community": {
+            "type": "text"
+        },
+        "menu": "Menu",
+        "@menu": {
+            "type": "text"
+        },
+        "b_food": "food",
+        "@b_food": {
+            "type": "text"
+        },
+        "b_non_food": "non-food",
+        "@b_non_food": {
+            "type": "text"
+        },
+        "b_centers": "centers",
+        "@b_centers": {
+            "type": "text"
+        },
+        "deliver": "Deliver",
+        "@deliver": {
+            "type": "text"
+        },
+        "piece": "piece",
+        "@piece": {
+            "type": "text"
+        },
+        "pieces": "pieces",
+        "@pieces": {
+            "type": "text"
+        },
+        "point": "Point",
+        "@point": {
+            "type": "text"
+        },
+        "points": "Points",
+        "@points": {
+            "type": "text"
+        },
+        "can_be_picked_up": "Can be picked up after...",
+        "@can_be_picked_up": {
+            "type": "text"
+        },
+        "picked_up": "Picked up",
+        "@picked_up": {
+            "type": "text"
+        },
+        "must_be_delivered": "Must be delivered within...",
+        "@must_be_delivered": {
+            "type": "text"
+        },
+        "hour": "hour",
+        "@hour": {
+            "type": "text"
+        },
+        "hours": "hours",
+        "@hours": {
+            "type": "text"
+        },
+        "delivered": "Delivered",
+        "@delivered": {
+            "type": "text"
+        },
+        "of": "of",
+        "@of": {
+            "type": "text"
+        },
+        "h_my_shifts": "my_shifts",
+        "@h_my_shifts": {
+            "type": "text"
+        },
+        "h_apply": "apply",
+        "@h_apply": {
+            "type": "text"
+        },
+        "not_interested": "Not interested",
+        "@not_interested": {
+            "type": "text"
+        },
+        "apply": "Apply",
+        "@apply": {
+            "type": "text"
+        },
+        "donate_food": "Donate food or goods",
+        "@donate_food": {
+            "type": "text"
+        },
+        "donate_food_sub": "<KLEINER ERKLÄRTEXT>",
+        "@donate_food_sub": {
+            "type": "text"
+        },
+        "food": "Food",
+        "@food": {
+            "type": "text"
+        },
+        "non_food": "Non-food",
+        "@non_food": {
+            "type": "text"
+        },
+        "select_image": "Select an image",
+        "@select_image": {
+            "type": "text"
+        },
+        "select_image_sub": "Displayed in the app",
+        "@select_image_sub": {
+            "type": "text"
+        },
+        "choose_type": "Choose type",
+        "@choose_type": {
+            "type": "text"
+        },
+        "choose_type_sub": "Label",
+        "@choose_type_sub": {
+            "type": "text"
+        },
+        "quantity": "Quantity",
+        "@quantity": {
+            "type": "text"
+        },
+        "unit": "Unit",
+        "@unit": {
+            "type": "text"
+        },
+        "select_center": "Selecting nearest distribution center",
+        "@select_center": {
+            "type": "text"
+        },
+        "self_deliver": "Do you want to deliver the donation on your own?",
+        "@self_deliver": {
+            "type": "text"
+        },
+        "today": "Today",
+        "@today": {
+            "type": "text"
+        },
+        "yesterday": "Yesterday",
+        "@yesterday": {
+            "type": "text"
+        },
+        "a_deliveries": "deliveries",
+        "@a_deliveries": {
+            "type": "text"
+        },
+        "a_inventory": "inventory",
+        "@a_inventory": {
+            "type": "text"
+        },
+        "a_helpers": "helpers",
+        "@a_helpers": {
+            "type": "text"
+        },
+        "a_settings": "settings",
+        "@a_settings": {
+            "type": "text"
+        },
+        "eta": "Ajustes",
+        "@eta": {
+            "type": "text"
+        },
+        "donated": "Donated",
+        "@donated": {
+            "type": "text"
+        },
+        "shift": "Shift",
+        "@shift": {
+            "type": "text"
+        },
+        "delivery": "Delivery & errands",
+        "@delivery": {
+            "type": "text"
+        },
+        "prep_food": "Preparing food",
+        "@prep_food": {
+            "type": "text"
+        },
+        "serve_food": "Serving food",
+        "@serve_food": {
+            "type": "text"
+        },
+        "cleaning": "Cleaning",
+        "@cleaning": {
+            "type": "text"
+        },
+        "repair": "Repairs & craftwork",
+        "@repair": {
+            "type": "text"
+        },
+        "garden": "Gardening",
+        "@garden": {
+            "type": "text"
+        },
+        "coord": "Coordinate",
+        "@coord": {
+            "type": "text"
+        },
+        "health": "Healthcare",
+        "@health": {
+            "type": "text"
+        },
+        "teach": "Teaching",
+        "@teach": {
+            "type": "text"
+        },
+        "alt_cat": "Alternative Category",
+        "@alt_cat": {
+            "type": "text"
+        },
+        "at_least_5": "Please enter at least 5 characters...",
+        "@at_least_5": {
+            "type": "text"
+        },
+        "category": "Category",
+        "@category": {
+            "type": "text"
+        },
+        "summary": "Summary",
+        "@summary": {
+            "type": "text"
+        },
+        "desc": "Description",
+        "@desc": {
+            "type": "text"
+        },
+        "impact_points": "Impact Points",
+        "@impact_points": {
+            "type": "text"
+        },
+        "date": "Date",
+        "@date": {
+            "type": "text"
+        },
+        "invite_user": "Invite User",
+        "@invite_user": {
+            "type": "text"
+        },
+        "admins": "Admins",
+        "@admins": {
+            "type": "text"
+        },
+        "m_categories": "categories",
+        "@m_categories": {
+            "type": "text"
+        },
+        "m_centers": "centers",
+        "@m_centers": {
+            "type": "text"
+        },
+        "m_pickup": "for pickup",
+        "@m_pickup": {
+            "type": "text"
+        },
+        "create_prod_cat": "Create a product category",
+        "@create_prod_cat": {
+            "type": "text"
+        },
+        "product_class": "Product classification",
+        "@product_class": {
+            "type": "text"
+        },
+        "super_cat": "Is this a super category?",
+        "@super_cat": {
+            "type": "text"
+        },
+        "super_cat_sub": "e.g.: vegetables, toys, sanitary products",
+        "@super_cat_sub": {
+            "type": "text"
+        },
+        "benefit_points": "Benefit points",
+        "@benefit_points": {
+            "type": "text"
+        },
+        "select_super_cat": "Select super category",
+        "@select_super_cat": {
+            "type": "text"
+        },
+        "none": "<None>",
+        "@none": {
+            "type": "text"
+        },
+        "average_peso": "ø price in Chilean peso",
+        "@average_peso": {
+            "type": "text"
+        },
+        "price": "Price",
+        "@price": {
+            "type": "text"
+        },
+        "size_templates": "Sizes",
+        "@size_templates": {
+            "type": "text"
+        },
+        "small": "small",
+        "@small": {
+            "type": "text"
+        },
+        "medium": "medium",
+        "@medium": {
+            "type": "text"
+        },
+        "large": "large",
+        "@large": {
+            "type": "text"
+        },
+        "conditions": "Possible product conditions",
+        "@conditions": {
+            "type": "text"
+        },
+        "add_cond": "Add condition",
+        "@add_cond": {
+            "type": "text"
+        },
+        "max_delay": "Max. delay for pickup",
+        "@max_delay": {
+            "type": "text"
+        },
+        "manage_donations": "Donations for pickup",
+        "@manage_donations": {
+            "type": "text"
+        },
+        "manage_donations_sub": "Management of donations that are over their maximum pickup delay and need to be assigned to a collector.",
+        "@manage_donations_sub": {
+            "type": "text"
+        },
+        "center": "Center",
+        "@center": {
+            "type": "text"
+        },
+        "manage_centers": "Distribution Centers",
+        "@manage_centers": {
+            "type": "text"
+        },
+        "manage_centers_sub": "Management of distribution centers. Create new centers.",
+        "@manage_centers_sub": {
+            "type": "text"
+        },
+        "claim": "Claim",
+        "@claim": {
+            "type": "text"
+        },
+        "all_cats": "All categories",
+        "@all_cats": {
+            "type": "text"
+        },
+        "meals": "Meals",
+        "@meals": {
+            "type": "text"
+        },
+        "groceries": "Groceries",
+        "@groceries": {
+            "type": "text"
+        },
+        "sanitary": "Sanitary products",
+        "@sanitary": {
+            "type": "text"
+        },
+        "send": "Send",
+        "@send": {
+            "type": "text"
+        },
+        "new_question": "Question",
+        "@new_question": {
+            "type": "text"
+        },
+        "reply": "Reply",
+        "@reply": {
+            "type": "text"
+        }
+    },
+    {
+        "@@locale": "es",
+        "@@last_modified": "2020-10-28T12:44:44.108771",
+        "@@context": "app",
+        "food_climate": "Food & Climate",
+        "@food_climate": {
+            "type": "text"
+        },
+        "email": "E-Mail",
+        "@email": {
+            "type": "text"
+        },
+        "phone": "Teléfono",
+        "@phone": {
+            "type": "text"
+        },
+        "password": "Contraseña",
+        "@password": {
+            "type": "text"
+        },
+        "sign_in": "Acceso",
+        "@sign_in": {
+            "type": "text"
+        },
+        "new_here": "¿Primera vez aquí?",
+        "@new_here": {
+            "type": "text"
+        },
+        "learn_more": "Saber más y registrarse\n",
+        "@learn_more": {
+            "type": "text"
+        },
+        "welcome": "Bienvenidos a Minga",
+        "@welcome": {
+            "type": "text"
+        },
+        "create_account": "Crear una cuenta para...",
+        "@create_account": {
+            "type": "text"
+        },
+        "help": "Ayudar",
+        "@help": {
+            "type": "text"
+        },
+        "benefit": "Beneficiarse",
+        "@benefit": {
+            "type": "text"
+        },
+        "donate": "Donar alimentos u otros bienes",
+        "@donate": {
+            "type": "text"
+        },
+        "your_email": "Tu dirección de correo electrónico",
+        "@your_email": {
+            "type": "text"
+        },
+        "min_chars": "min. caracteres",
+        "@min_chars": {
+            "type": "text"
+        },
+        "non_alpha_numeric": "Usar caracteres no alfanuméricos",
+        "@non_alpha_numeric": {
+            "type": "text"
+        },
+        "terms": "Se ruega aceptar nuestros Términos de Servicio",
+        "@terms": {
+            "type": "text"
+        },
+        "privacy": "Se ruega aceptar nuestra Política de Privacidad",
+        "@privacy": {
+            "type": "text"
+        },
+        "register": "Registrarse",
+        "@register": {
+            "type": "text"
+        },
+        "your_phone": "Tu número de teléfono",
+        "@your_phone": {
+            "type": "text"
+        },
+        "phone_disclaimer": "Deberías poder recibir mensajes de texto en este número de teléfono, para poder enviarte un código de autenticación.",
+        "@phone_disclaimer": {
+            "type": "text"
+        },
+        "phone_note": "Recibirás un mensaje de texto de verificación en tu teléfono.",
+        "@phone_note": {
+            "type": "text"
+        },
+        "your_name": "Tu nombre",
+        "@your_name": {
+            "type": "text"
+        },
+        "show_email": "Mostrar dirección de correo electrónico",
+        "@show_email": {
+            "type": "text"
+        },
+        "show_emai_sub": "Otros usuarios pueden ver tu dirección de correo electrónico asociado a tu perfil.",
+        "@show_emai_sub": {
+            "type": "text"
+        },
+        "show_phone": "Mostrar número de teléfono",
+        "@show_phone": {
+            "type": "text"
+        },
+        "show_phone_sub": "Otros usuarios pueden ver tu número de teléfono asociado a tu perfil.",
+        "@show_phone_sub": {
+            "type": "text"
+        },
+        "anon_donations": "Anonimizar mis donaciones",
+        "@anon_donations": {
+            "type": "text"
+        },
+        "anon_donations_sub": "Al donar, el receptor no puede ver tu perfil.",
+        "@anon_donations_sub": {
+            "type": "text"
+        },
+        "anon_chats": "Anonimizar mis chats",
+        "@anon_chats": {
+            "type": "text"
+        },
+        "anon_chats_sub": "Ocultar tu identidad en el chat general. Esto no afecta a los chats asociados a las donaciones o al trabajo voluntario.",
+        "@anon_chats_sub": {
+            "type": "text"
+        },
+        "show_impact": "Mostrar mi impacto",
+        "@show_impact": {
+            "type": "text"
+        },
+        "show _impact_sub": "Otros usuarios pueden ver tu impacto total asociado a tu perfil.",
+        "@show _impact_sub": {
+            "type": "text"
+        },
+        "residence": "Tu lugar de residencia",
+        "@residence": {
+            "type": "text"
+        },
+        "location": "Selecciona el lugar",
+        "@location": {
+            "type": "text"
+        },
+        "save_profile": "Guardar perfil",
+        "@save_profile": {
+            "type": "text"
+        },
+        "benefit_sub": "Descubrir ofertas de comida cercanas",
+        "@benefit_sub": {
+            "type": "text"
+        },
+        "help_sub": "Ayuda a entregar o cocinar comida",
+        "@help_sub": {
+            "type": "text"
+        },
+        "donate_sub": "Donar alimentos u otros bienes",
+        "@donate_sub": {
+            "type": "text"
+        },
+        "admin": "Admin",
+        "@admin": {
+            "type": "text"
+        },
+        "admin_sub": "Administrar centros de distribución",
+        "@admin_sub": {
+            "type": "text"
+        },
+        "moderate": "Solo para equipo de Minga",
+        "@moderate": {
+            "type": "text"
+        },
+        "logged_in": "En el sistema",
+        "@logged_in": {
+            "type": "text"
+        },
+        "log_out": "Desconecta",
+        "@log_out": {
+            "type": "text"
+        },
+        "manage_account": "Gestionar cuenta",
+        "@manage_account": {
+            "type": "text"
+        },
+        "manage_account_sub": "Editar perfil, exportar datos",
+        "@manage_account_sub": {
+            "type": "text"
+        },
+        "export_data": "Exportar todos los datos del usuario",
+        "@export_data": {
+            "type": "text"
+        },
+        "export_data_sub": "El GDPR europeo requiere una opción para descargar todos los datos específicos del usuario",
+        "@export_data_sub": {
+            "type": "text"
+        },
+        "delete_account": "Eliminar la cuenta",
+        "@delete_account": {
+            "type": "text"
+        },
+        "delete_account_sub": "Esto causa una pérdida permanente de datos y no puede deshacerse",
+        "@delete_account_sub": {
+            "type": "text"
+        },
+        "cancel": "Cancelar",
+        "@cancel": {
+            "type": "text"
+        },
+        "update": "Actualizar",
+        "@update": {
+            "type": "text"
+        },
+        "save": "Guardar",
+        "@save": {
+            "type": "text"
+        },
+        "proceed": "Proceder",
+        "@proceed": {
+            "type": "text"
+        },
+        "done": "Hecho",
+        "@done": {
+            "type": "text"
+        },
+        "account ": "Cuenta",
+        "@account ": {
+            "type": "text"
+        },
+        "impact": "Impacto",
+        "@impact": {
+            "type": "text"
+        },
+        "community": "Comunidad",
+        "@community": {
+            "type": "text"
+        },
+        "menu": "Menú",
+        "@menu": {
+            "type": "text"
+        },
+        "b_food": "Alimento",
+        "@b_food": {
+            "type": "text"
+        },
+        "b_non_food": "Non-Food",
+        "@b_non_food": {
+            "type": "text"
+        },
+        "b_centers": "Centros",
+        "@b_centers": {
+            "type": "text"
+        },
+        "deliver": "Entregar",
+        "@deliver": {
+            "type": "text"
+        },
+        "piece": "Unidad",
+        "@piece": {
+            "type": "text"
+        },
+        "pieces": "Unidades",
+        "@pieces": {
+            "type": "text"
+        },
+        "point": "Punto",
+        "@point": {
+            "type": "text"
+        },
+        "points": "Puntos",
+        "@points": {
+            "type": "text"
+        },
+        "can_be_picked_up": "Se puede recoger después...",
+        "@can_be_picked_up": {
+            "type": "text"
+        },
+        "picked_up": "Recogido",
+        "@picked_up": {
+            "type": "text"
+        },
+        "must_be_delivered": "Debe ser entregado dentro de...",
+        "@must_be_delivered": {
+            "type": "text"
+        },
+        "hour": "Hora",
+        "@hour": {
+            "type": "text"
+        },
+        "hours": "Horas",
+        "@hours": {
+            "type": "text"
+        },
+        "delivered": "Entregado",
+        "@delivered": {
+            "type": "text"
+        },
+        "of": "De",
+        "@of": {
+            "type": "text"
+        },
+        "h_my_shifts": "Mis_turnos",
+        "@h_my_shifts": {
+            "type": "text"
+        },
+        "h_apply": "Aplicar",
+        "@h_apply": {
+            "type": "text"
+        },
+        "not_interested": "No me interesa",
+        "@not_interested": {
+            "type": "text"
+        },
+        "apply": "Postular",
+        "@apply": {
+            "type": "text"
+        },
+        "donate_food": "Donaciones de alimentos o bienes",
+        "@donate_food": {
+            "type": "text"
+        },
+        "donate_food_sub": "<BREVE TEXTO EXPLICATORIO>",
+        "@donate_food_sub": {
+            "type": "text"
+        },
+        "food": "Alimentos",
+        "@food": {
+            "type": "text"
+        },
+        "non_food": "No alimentos",
+        "@non_food": {
+            "type": "text"
+        },
+        "select_image": "Seleccionar una imagen",
+        "@select_image": {
+            "type": "text"
+        },
+        "select_image_sub": "Mostrar en la aplicación",
+        "@select_image_sub": {
+            "type": "text"
+        },
+        "choose_type": "Elegir el tipo",
+        "@choose_type": {
+            "type": "text"
+        },
+        "choose_type_sub": "Etiqueta",
+        "@choose_type_sub": {
+            "type": "text"
+        },
+        "quantity": "Cantidad",
+        "@quantity": {
+            "type": "text"
+        },
+        "unit": "Unidad",
+        "@unit": {
+            "type": "text"
+        },
+        "select_center": "Seleccionando el centro de distribución más cercano",
+        "@select_center": {
+            "type": "text"
+        },
+        "self_deliver": "¿Quieres entregar la donación por tu cuenta?",
+        "@self_deliver": {
+            "type": "text"
+        },
+        "today": "Hoy",
+        "@today": {
+            "type": "text"
+        },
+        "yesterday": "Ayer",
+        "@yesterday": {
+            "type": "text"
+        },
+        "a_deliveries": "Entregas",
+        "@a_deliveries": {
+            "type": "text"
+        },
+        "a_inventory": "Inventario",
+        "@a_inventory": {
+            "type": "text"
+        },
+        "a_helpers": "Ayudantes",
+        "@a_helpers": {
+            "type": "text"
+        },
+        "a_settings": "ajustes",
+        "@a_settings": {
+            "type": "text"
+        },
+        "eta": "Hora entrega estimada",
+        "@eta": {
+            "type": "text"
+        },
+        "donated": "Donado",
+        "@donated": {
+            "type": "text"
+        },
+        "shift": "Cambio",
+        "@shift": {
+            "type": "text"
+        },
+        "delivery": "Entrega y recados",
+        "@delivery": {
+            "type": "text"
+        },
+        "prep_food": "Preparar comida",
+        "@prep_food": {
+            "type": "text"
+        },
+        "serve_food": "Servir comida",
+        "@serve_food": {
+            "type": "text"
+        },
+        "cleaning": "Limpieza",
+        "@cleaning": {
+            "type": "text"
+        },
+        "repair": "Reparaciones y artesanía",
+        "@repair": {
+            "type": "text"
+        },
+        "garden": "Jardinería",
+        "@garden": {
+            "type": "text"
+        },
+        "coord": "Coordinar",
+        "@coord": {
+            "type": "text"
+        },
+        "health": "Atención médica",
+        "@health": {
+            "type": "text"
+        },
+        "teach": "Enseñanza",
+        "@teach": {
+            "type": "text"
+        },
+        "alt_cat": "Categoría alternativa",
+        "@alt_cat": {
+            "type": "text"
+        },
+        "at_least_5": "Se ruega introducir al menos 5 caracteres...",
+        "@at_least_5": {
+            "type": "text"
+        },
+        "category": "Categoría",
+        "@category": {
+            "type": "text"
+        },
+        "summary": "Resumen",
+        "@summary": {
+            "type": "text"
+        },
+        "desc": "Descripción",
+        "@desc": {
+            "type": "text"
+        },
+        "impact_points": "Puntos de impacto",
+        "@impact_points": {
+            "type": "text"
+        },
+        "date": "Fecha",
+        "@date": {
+            "type": "text"
+        },
+        "invite_user": "Invitar a un usuario",
+        "@invite_user": {
+            "type": "text"
+        },
+        "admins": "Administradores",
+        "@admins": {
+            "type": "text"
+        },
+        "m_categories": "Categorías",
+        "@m_categories": {
+            "type": "text"
+        },
+        "m_centers": "Centros",
+        "@m_centers": {
+            "type": "text"
+        },
+        "m_pickup": "Esperando recogida",
+        "@m_pickup": {
+            "type": "text"
+        },
+        "create_prod_cat": "Crear una categoría de productos",
+        "@create_prod_cat": {
+            "type": "text"
+        },
+        "product_class": "Clasificación del producto",
+        "@product_class": {
+            "type": "text"
+        },
+        "super_cat": "¿Esta es una macrocategoría?",
+        "@super_cat": {
+            "type": "text"
+        },
+        "super_cat_sub": "Por ejemplo: verduras, juguetes, productos sanitarios",
+        "@super_cat_sub": {
+            "type": "text"
+        },
+        "benefit_points": "Puntos de beneficio",
+        "@benefit_points": {
+            "type": "text"
+        },
+        "select_super_cat": "Seleccionar macrocategoría",
+        "@select_super_cat": {
+            "type": "text"
+        },
+        "none": "<Nadie>",
+        "@none": {
+            "type": "text"
+        },
+        "average_peso": "Precio promedio en pesos chilenos",
+        "@average_peso": {
+            "type": "text"
+        },
+        "price": "Precio",
+        "@price": {
+            "type": "text"
+        },
+        "size_templates": "Tamaños",
+        "@size_templates": {
+            "type": "text"
+        },
+        "small": "Pequeño",
+        "@small": {
+            "type": "text"
+        },
+        "medium": "Medio",
+        "@medium": {
+            "type": "text"
+        },
+        "large": "Grande",
+        "@large": {
+            "type": "text"
+        },
+        "conditions": "Posibles condiciones del producto",
+        "@conditions": {
+            "type": "text"
+        },
+        "add_cond": "Añadir la condición",
+        "@add_cond": {
+            "type": "text"
+        },
+        "max_delay": "Máximo retraso para la recogida",
+        "@max_delay": {
+            "type": "text"
+        },
+        "manage_donations": "Donaciones para la recogida",
+        "@manage_donations": {
+            "type": "text"
+        },
+        "manage_donations_sub": "Gestión de donaciones que superan su plazo máximo de recogida y que deben asignarse a un recolector.",
+        "@manage_donations_sub": {
+            "type": "text"
+        },
+        "center": "Centro",
+        "@center": {
+            "type": "text"
+        },
+        "manage_centers": "Centros de distribución",
+        "@manage_centers": {
+            "type": "text"
+        },
+        "manage_centers_sub": "Gestión de centros de distribución. Crear nuevos centros.",
+        "@manage_centers_sub": {
+            "type": "text"
+        },
+        "claim": "",
+        "@claim": {
+            "type": "text"
+        },
+        "all_cats": "",
+        "@all_cats": {
+            "type": "text"
+        },
+        "meals": "",
+        "@meals": {
+            "type": "text"
+        },
+        "groceries": "",
+        "@groceries": {
+            "type": "text"
+        },
+        "sanitary": "",
+        "@sanitary": {
+            "type": "text"
+        },
+        "send": "",
+        "@send": {
+            "type": "text"
+        },
+        "new_question": "",
+        "@new_question": {
+            "type": "text"
+        },
+        "reply": "",
+        "@reply": {
+            "type": "text"
+        }
+    }
+]
