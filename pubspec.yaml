@@ -1,6 +1,6 @@
 name: sheets_i18n
 description: A flutter tool to synchronize i18n (internationalization) arb files with google sheets.
-version: 0.0.1+2
+version: 0.0.1+3
 repository: https://github.com/lukas-h/sheets_i18n
 
 environment:
