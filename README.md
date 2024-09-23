@@ -21,9 +21,8 @@ It should look like this:
 2. Turn on the Google Sheets API
 3. Copy the service account's email address
 4. Share the google sheet with the service account and give it edit privileges
-
-<img width="494" alt="Screenshot 2024-09-23 at 09 49 49" src="https://github.com/user-attachments/assets/33223e19-5da5-482e-be22-abee7d021ff4">
-
+    <img width="494" alt="Screenshot 2024-09-23 at 09 49 49" src="https://github.com/user-attachments/assets/33223e19-5da5-482e-be22-abee7d021ff4">
+5. Download the service account JSON (it's local path will later be added to the pubspec configuration)
 
 ### 3. Prerequisites with `intl_translation`
 
