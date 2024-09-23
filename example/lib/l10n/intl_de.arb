@@ -1,0 +1,18 @@
+{
+  "@@last_modified": "2024-09-23T10:25:09.284199",
+  "logistics": "Logistics",
+  "@logistics": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "gates": "Gates",
+  "@gates": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "warehouse": "Warehouse",
+  "@warehouse": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
