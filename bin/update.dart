@@ -1,18 +1,25 @@
 import 'dart:io';
 
 import 'package:gsheets/gsheets.dart';
-import 'package:translation_service/arb_serialization.dart';
-import 'package:translation_service/credentials.dart';
-import 'package:translation_service/extract_messages.dart';
+import 'package:sheets_i18n/arb_serialization.dart';
+import 'package:sheets_i18n/extract_messages.dart';
+import 'package:yaml/yaml.dart';
 
 final PATH = './lib/l10n';
 
 main() async {
+  final pubspec = File('pubspec.yaml');
+  final pubspecContent = await pubspec.readAsString();
+  final pubspecMap = loadYaml(pubspecContent);
+  final translationMap = pubspecMap['sheets_i18n'];
+  final credentialsPath = translationMap['service_account_path'];
+  final CREDENTIALS = await File(credentialsPath).readAsString();
+  final sheetId = translationMap['sheet_id'];
+
   var sheets = GSheets(
     CREDENTIALS,
   );
-  var doc =
-      await sheets.spreadsheet('1uE4Mom5tCZZ36_G-1cgVOj61coMi4fIcH9FbQmWlNqM');
+  var doc = await sheets.spreadsheet(sheetId);
   var dir = Directory(PATH);
   if (!await dir.exists()) {
     await dir.create();
@@ -36,9 +43,9 @@ main() async {
 
       var messages = extractMessages('./lib/main.dart');
       for (var key in messages.keys) {
-        var en = messages[key].expanded().replaceFirst('Literal(', '');
-        if (en.endsWith(')')) {
-          en = en.substring(0, en.length - 1);
+        var en = messages[key]?.expanded().replaceFirst('Literal(', '');
+        if (en?.endsWith(')') == true) {
+          en = en!.substring(0, en.length - 1);
         }
         print('$key -> $en');
         if (!sheetsKeys.contains(key)) {
