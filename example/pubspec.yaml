@@ -28,3 +28,4 @@ flutter:
 sheets_i18n:
   service_account_path: ./service_account_not_committed.json
   sheet_id: 1URJ8ahdbD1C739pEA4LGf8RCy-Q-UtVd4rzP09APAGw
+  localizations_file: ./lib/localizations.dart

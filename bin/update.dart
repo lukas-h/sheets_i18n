@@ -15,6 +15,8 @@ main() async {
   final credentialsPath = translationMap['service_account_path'];
   final CREDENTIALS = await File(credentialsPath).readAsString();
   final sheetId = translationMap['sheet_id'];
+  final messagesFile =
+      translationMap['localizations_file'] ?? './lib/main.dart';
 
   var sheets = GSheets(
     CREDENTIALS,
@@ -41,7 +43,7 @@ main() async {
       await File('$PATH/intl_$locale.arb')
           .writeAsString(serializer.serialize());
 
-      var messages = extractMessages('./lib/main.dart');
+      var messages = extractMessages(messagesFile);
       for (var key in messages.keys) {
         var en = messages[key]?.expanded().replaceFirst('Literal(', '');
         if (en?.endsWith(')') == true) {

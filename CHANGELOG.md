@@ -9,3 +9,7 @@
 ## 0.0.1+3
 
 - README improved
+
+## 0.0.2
+
+- Add the possibility to change the localizations file in the configuration

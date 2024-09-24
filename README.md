@@ -33,7 +33,7 @@ It should look like this:
 1. Having setup `intl_translation` and `flutter_localizations`, incl. a `MyAppLocalizations` and `MyAppLocalizationsDelegate` class ([see our example app](https://github.com/lukas-h/sheets_i18n/tree/main/example))
 2. Having run the `intl_translation` commands to generate the arb files [github.com/dart-lang/i18n](https://github.com/dart-lang/i18n/tree/main/pkgs/intl_translation#extracting-and-using-translated-messages)  
 ```bash
-flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/main.dart
+flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/localizations.dart
 ```
 3. Create new ARB files for each locale, naming them `intl_<locale>.arb` (e.g., `intl_de.arb` for German, `intl_es.arb` for Spanish).
 
@@ -51,6 +51,7 @@ add this section:
 sheets_i18n:
   service_account_path: ./path/to/service_account.json
   sheet_id: 34tv34rv324rv23rv3r43r43red89f8hs89duzfs
+  localizations_file: './lib/localizations.dart' # optional - default is ./lib/main.dart
 ```
 
 ### 6. Run the sync script
@@ -70,6 +71,6 @@ Run the `intl_translation` commands to generate the dart code from the arb files
 ```bash
 flutter pub run intl_translation:generate_from_arb \
     --output-dir=lib/l10n --no-use-deferred-loading \
-    lib/main.dart \
+    lib/localizations.dart \
     lib/l10n/intl_en.arb lib/l10n/intl_de.arb lib/l10n/intl_cs.arb
 ```
