@@ -13,3 +13,7 @@
 ## 0.0.2
 
 - Add the possibility to change the localizations file in the configuration
+
+## 0.0.3
+
+- Add the possibility to change the arb files folder in the configuration

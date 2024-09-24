@@ -51,7 +51,8 @@ add this section:
 sheets_i18n:
   service_account_path: ./path/to/service_account.json
   sheet_id: 34tv34rv324rv23rv3r43r43red89f8hs89duzfs
-  localizations_file: './lib/localizations.dart' # optional - default is ./lib/main.dart
+  localizations_file: './lib/localizations.dart' # file with the localization messages - optional - default is ./lib/main.dart
+  localizations_path: './lib/l10n' # folder for arb files - optional - default is ./lib/l10n 
 ```
 
 ### 6. Run the sync script

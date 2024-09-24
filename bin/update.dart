@@ -5,24 +5,23 @@ import 'package:sheets_i18n/arb_serialization.dart';
 import 'package:sheets_i18n/extract_messages.dart';
 import 'package:yaml/yaml.dart';
 
-final PATH = './lib/l10n';
-
 main() async {
   final pubspec = File('pubspec.yaml');
   final pubspecContent = await pubspec.readAsString();
   final pubspecMap = loadYaml(pubspecContent);
   final translationMap = pubspecMap['sheets_i18n'];
   final credentialsPath = translationMap['service_account_path'];
-  final CREDENTIALS = await File(credentialsPath).readAsString();
+  final credentials = await File(credentialsPath).readAsString();
   final sheetId = translationMap['sheet_id'];
   final messagesFile =
       translationMap['localizations_file'] ?? './lib/main.dart';
+  final localizationPath = translationMap['localizations_path'] ?? './lib/l10n';
 
   var sheets = GSheets(
-    CREDENTIALS,
+    credentials,
   );
   var doc = await sheets.spreadsheet(sheetId);
-  var dir = Directory(PATH);
+  var dir = Directory(localizationPath);
   if (!await dir.exists()) {
     await dir.create();
   }
@@ -40,7 +39,7 @@ main() async {
       );
       var data = Map.fromIterables(sheetsKeys, values);
       var serializer = ArbSerializer.parse(locale, data, context);
-      await File('$PATH/intl_$locale.arb')
+      await File('$localizationPath/intl_$locale.arb')
           .writeAsString(serializer.serialize());
 
       var messages = extractMessages(messagesFile);
