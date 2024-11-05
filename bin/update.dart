@@ -16,34 +16,34 @@ main() async {
       translationMap['localizations_file'] ?? './lib/main.dart';
   final localizationPath = translationMap['localizations_path'] ?? './lib/l10n';
 
-  var sheets = GSheets(credentials);
-  var doc = await sheets.spreadsheet(sheetId);
-  var dir = Directory(localizationPath);
+  final sheets = GSheets(credentials);
+  final doc = await sheets.spreadsheet(sheetId);
+  final dir = Directory(localizationPath);
   if (!await dir.exists()) {
     await dir.create();
   }
 
-  for (var sheet in doc.sheets) {
-    var context = sheet.title;
-    var allColumns = await sheet.values.allColumns();
+  for (final sheet in doc.sheets) {
+    final context = sheet.title;
+    final allColumns = await sheet.values.allColumns();
 
-    var sheetsKeys = allColumns[0].sublist(1);
-    var existingKeys = Set<String>.from(sheetsKeys);
+    final sheetsKeys = allColumns[0].sublist(1);
+    final existingKeys = Set<String>.from(sheetsKeys);
 
-    for (var col in allColumns.sublist(1)) {
-      var locale = col.first;
-      var sub = col.sublist(1);
-      var values = List.generate(
+    for (final col in allColumns.sublist(1)) {
+      final locale = col.first;
+      final sub = col.sublist(1);
+      final values = List.generate(
         sheetsKeys.length,
-            (index) => sub.length > index ? sub[index] : '',
+        (index) => sub.length > index ? sub[index] : '',
       );
-      var data = Map.fromIterables(sheetsKeys, values);
-      var serializer = ArbSerializer.parse(locale, data, context);
+      final data = Map.fromIterables(sheetsKeys, values);
+      final serializer = ArbSerializer.parse(locale, data, context);
       await File('$localizationPath/intl_$locale.arb')
           .writeAsString(serializer.serialize());
 
-      var messages = extractMessages(messagesFile);
-      for (var key in messages.keys) {
+      final messages = extractMessages(messagesFile);
+      for (final key in messages.keys) {
         var en = messages[key]?.expanded().replaceFirst('Literal(', '');
         if (en?.endsWith(')') == true) {
           en = en!.substring(0, en.length - 1);

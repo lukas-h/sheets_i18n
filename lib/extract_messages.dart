@@ -6,7 +6,7 @@ import 'package:intl_translation/extract_messages.dart';
 import 'package:intl_translation/src/messages/main_message.dart';
 
 Map<String, MainMessage> extractMessages(String filename) {
-  var extraction = MessageExtraction()
+  final extraction = MessageExtraction()
         ..suppressWarnings = false
         ..warningsAreErrors = false
         ..allowEmbeddedPluralsAndGenders = true
