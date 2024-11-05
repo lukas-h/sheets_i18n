@@ -17,3 +17,8 @@
 ## 0.0.3
 
 - Add the possibility to change the arb files folder in the configuration
+
+## 0.0.4
+
+- Duplicate record add to google sheets issue fixed
+- Replace vars with final and other code optimizations
